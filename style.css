@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Movies Section */
+#latest {
+  padding: 20px;
+  text-align: center;
+}
+
+.movies-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.movie {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie h3 {
+  margin: 10px 0 5px;
+}
+
+.movie p {
+  margin: 0 10px 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Button Styles */
+.btn-download {
+  display: inline-block;
+  margin: 10px 0 15px;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-download:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9rem;
+}
